@@ -1,0 +1,15 @@
+what data to ingest?
+
+mungkin pake 4 step data modelling process
+1. pilih business process
+2. grain
+3. dim
+4. fact
+
+curl -X GET \
+  "https://api.coingecko.com/api/v3/coins/markets" \
+  -H "x-cg-demo-api-key: CG-SvVoM3i9KaoCdvumoqfNp9zE"
+
+curl --request GET \
+  --url 'https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd' \
+  --header "x-cg-demo-api-key: CG-SvVoM3i9KaoCdvumoqfNp9zE"
